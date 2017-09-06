@@ -25,7 +25,7 @@ html {
 	background-size: cover;
 	position: relative;
 }
-.main-overlay {
+.main-overlay, .call-to-action-overlay {
 	position: absolute;
 	left: 0; top: 0;
 	width: 100%;
@@ -289,4 +289,116 @@ html {
 	cursor: pointer;
 	background-color: #6e45e2;
 	color: #FFF;
+}
+.call-to-action {
+	background: url(../img/Map.png) no-repeat center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	text-align: center;
+	padding: 15rem;
+	position: relative;
+	color: #FFF;
+}
+.call-to-action span {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.call-to-action h4 {
+	font-weight: 500;
+	font-size: 5rem;
+	margin: 1rem auto 2rem;
+}
+.cta-btn {
+	display: inline-block;
+	border: none;
+	background-color: #fff;
+	color: #C2C9DB;
+	width: 19rem;
+	height: 5rem;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin: 1rem;
+	-webkit-border-radius: 100px;
+	        border-radius: 100px;
+	-webkit-transition: 0.5s;
+	   -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	     -o-transition: 0.5s;
+	        transition: 0.5s;
+	
+}
+.cta-btn:hover {
+	background-color: #6e45e2;
+	cursor: pointer;
+}
+.wrap {
+	z-index: 2;
+	position: relative;
+}
+.footer-wrap {
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.footer {
+	height: 10vh;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 98%;
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.footer-menu {
+	width: 50%;
+}
+.footer-menu ul {
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	list-style: none;
+}
+.footer-menu-link {
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: #6A6A77;
+	font-weight: 500;
+}
+.footer-get-started {
+	margin-left: 6rem;
+	border: 1px solid #fff;
+	background-color: #6E45E2;
+	padding: 1.2rem 2rem;
+	color: #FFF;
+	-webkit-border-radius: 100px;
+	        border-radius: 100px;
+	text-transform: uppercase;
+}
+.line {
+	display: block;
+	width: 90%;
+	border: 1px solid #333;
+	margin: 1rem auto;
+}
+.legal {
+	padding-left: 5%;
+	padding-right: 5%;
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-ms-align-items: center;
+	    align-items: center;
+}
+.copy {
+	font-size: 1.4rem;
+	color: #6A6A77;
+}
+.social-links a {
+	color: #6A6A77;
+	font-size: 1.4rem;
+	display: inline-block;
+	margin-right: 1rem;
 }
