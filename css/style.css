@@ -160,7 +160,8 @@ html {
 }
 .table {
 	border-color: #f9fafc;
-	padding: 10rem;
+	padding: 5rem 10rem 5rem 10rem;
+	height: 100vh;
 }
 .table-header {
 	text-align: center;
@@ -168,7 +169,7 @@ html {
 }
 .table-header span {
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 1em;
 	color: #9FA4AF;
 }
 .table-header span::after {
@@ -190,16 +191,17 @@ html {
 	margin-right: 10px;
 }
 .table-header p {
-	font-size: 1.8rem;
+	font-size: 1.2em;
 	display: inline-block;
 	line-height: 1.4;
 	width: 40rem;
+	margin: 0;
 	color: #9FA4AF;
 }
 .table-header h2 {
 	color: #4F4F6F;
-	font-size: 6rem;
-	margin: 0;
+	font-size: 3.7em;
+	margin: 1rem 0 1rem 0;
 }
 .price-tags {
 	display: flex;
@@ -210,6 +212,7 @@ html {
 	
 }
 .price-tag {
+	height: 65vh;
 	border-color: #FFF
 	-webkit-border-radius: 2rem;
 	        border-radius: 2rem;
